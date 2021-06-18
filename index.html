@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Home Website Quentin</title>
+    <meta charset="UTF-8">
+    <meta content="website and portfolio Quentin" name="description">
+    <meta content="Quentin Desse" name="author">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+    <!-- favicon -->
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"/>
+    <link href="src/css/bulmaswatch.css" rel="stylesheet"/>
+    <link href="src/css/site.css" rel="stylesheet" />
+    <link href="src/css/index.css" rel="stylesheet" />
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!-- script -->
+    <script src="src/js/navbar.js"></script>
+    <script src="src/js/tabs.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153501633-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-153501633-2');
+    </script>
+
+</head>
+
+<body>
+<div id="particles-js">
+    <canvas class="particles-js-canvas-el" width="814" height="789" style="width: 100%; height: 100%;"></canvas>
+</div>
+<section class="hero" style="background-color: rgb(3,12,25)">
+    <div class="hero-head">
+        <nav aria-label="main navigation" class="navbar" role="navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="index.html"> <!-- retour a l'acceuil du site -->
+                        <img alt="Website logo" src="src/logo/logo_quentin.png" style="height : 50px; margin-top: 10px">
+                    </a>
+                    <span class="navbar-item has-text-primary has-text-orbitron" style="font-size: 17px;">Quentin</span>
+                    <a aria-expanded="false" aria-label="menu" class="navbar-burger" role="button">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="navbar-menu">
+                    <div class="navbar-end">
+                        <!-- contact -->
+                        <a class="navbar-item" style="font-size: 17px;" href="mailto:Quentin.desse43@gmail.com">
+                            <span class="icon">
+                               <i class="far fa-id-card"></i>
+                            </span>
+                            <span>Contact</span>
+                        </a>
+                        <a class="navbar-item" style="font-size: 17px;" href="https://www.facebook.com/quentin.desse.9">
+                            <span class="icon">
+                                <i class="fab fa-facebook"></i>
+                            </span>
+                            <span>Facebook</span>
+                        </a>
+                        <a class="navbar-item" style="font-size: 17px;" href="https://github.com/QuentinDesse">
+                            <span class="icon">
+                                <i class="fab fa-github"></i>
+                            </span>
+                            <span>Github</span>
+                        </a>
+                        <a class="navbar-item"  style="font-size: 17px;" href="https://www.linkedin.com/in/quentin-desse-ab1b781a1">
+                            <span class="icon">
+                                <i class="fab fa-linkedin"></i>
+                            </span>
+                            <span>Linkedin</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</section>
+
+<section style="background-color: rgb(4,13,26)">
+    <div>
+        <container class="center-div">
+            <div class="columns">
+                <div class="column is-one-third is-offset-one-third">
+                    <figure class="image">
+                        <img alt="Website logo" src="src/logo/logo_quentin.png" style="height: 200px; width:200px; margin: 0 auto;">
+                    </figure>
+                </div>
+            </div>
+            <!-- test -->
+            <div class="box">
+                <a class="button" href="#popup1">Informations</a>
+            </div>
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <h2>Informations Covid-19</h2>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        Se protéger du Coronavirus :
+                        -  Eviter les contacts proches & les lieux de regroupement
+                        -  Se laver fréquemment les mains
+                        -  Eviter de se toucher les yeux, le nez et la bouche
+                        -  Porter des masques de protection (recommandé)
+                    </div>
+                </div>
+            </div>
+            <!-- test -->
+            <div class="columns is-center">
+                <main class="page-content">
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title" >Timeline</h2>
+                            <p class="copy">Découvrez mon parcours scolaire et professionnel</p>
+                            <a href="timeline.html">
+                                <button class="btn">
+                                    View
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title">Présentation</h2>
+                            <a href="presentation.html">
+                                <button class="btn">View</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title" >Mon Portfolio</h2>
+                            <p class="copy">Ici vous trouverez une présentation de chacun de mes projets</p>
+                            <a href="portfolio.html">
+                                <button class="btn">Open Project</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title" > Explore My Passions</h2>
+                            <p class="copy">La photographie, un art qui exprime la beauté du monde qui nous entoure</p>
+                            <a href="https://photos.quentin-desse.fr/">
+                                <button class="btn">Photos Book</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title" > My CV Website</h2>
+                            <p class="copy">Découvrez mon CV numérique</p>
+                            <a href="https://cv.quentin-desse.fr/">
+                                <button class="btn">Curriculum Vitae</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h2 class="title" >Mon E-Commerce </h2>
+                            <p class="copy">Ameublement et Déco d'intérieur </p>
+                            <a style="color:red;">(site en construction)</a>
+                            <a href="">
+                                <button class="btn">View Boutique</button>
+                            </a>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </container>
+    </div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="src/js/main.js"></script>
+<script src="src/js/particlesjs.js"></script>
+<script src="src/js/animated-background.js"></script>
+
+</body>
+</html>
